@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neel Soni Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+	
+	<!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="img/favicon.png"
+      type="image/png"
+    />
+	
+	
+    <link rel="stylesheet" href="./css/style.css" />
+	
+  </head>
+  <body>  
+  
+    <main>
+      <header id="header">
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#services">Skills</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Projects</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#contact" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 style="font-weight:bold; font-size:45px;">Neel Nikunjkumar Soni</h1>
+              <p class="text">
+                Coding-Programming, Learn New Technology & Use it into Real-Life problem to solve, Exploring new Skills, Innovative Business Ideas, Revolutionary Problem Solving Products/Ideas,
+			 History, and Spirituality is my passion...
+              </p>
+              <a href="./img/neelsoni_resume.pdf" class="btn" download="">Download Resume</a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <!img src="./img/person.png" class="img-element z-index" alt="" />
+			  <img src="./img/neel1.png" class="img-element z-index" alt=""  style="border-radius: 50%;" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">My Skills</h3>
+            <p class="text">
+               Technology
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Data-Structures & Algorithm</h3>
+                  <p class="text">
+                     I have strong grip over Data-Structures & Algorithm. I solved more than 1000+ Problems.
+                  </p>
+                  <a href="#hireme1" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    I have grip on frontend(html,css,javascript) as well as backend(php) with database
+					sql or Mysql.<!I made one Real Problem Solving Dynamic WebApplication use concepts of Amazone-Flipkart. >
+                  </p>
+                  <a href="#portfolio" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/aws.png" class="icon" alt="" />
+                  <h3 class="title-sm">AWS</h3>
+                  <p class="text">
+                    I have basic knowledge about AWS & I'm AWS Certified.
+                  </p>
+                  <a href="#portfolio" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Projects</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".appdev">Mobile App</button>
+              <button class="filter-btn" data-filter=".logo-design">Game</button>
+            </div>
+
+            <div class="grid">
+			
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n1.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI/UX Netflix Clone</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI/UX Netflix Clone</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n3.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Game Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Game Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n6.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI/UX Netflix Clone</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n7.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n10.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n11.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n12.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  
+			  <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n13.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  <div class="grid-item webdev appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n14.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>WebApplication</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n15.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  
+			  <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/n16.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			  
+			  
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me </h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hi, </h3>
+              <p class="text">
+               Coding-Programming, Learn New Technology & Use it into Reallife problem, Exploring new Skills, Innovative Business Ideas, Revolutionary Problem Solving Products/Ideas,
+			  History, and Spirituality is my passion...
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML/CSS/Bootstrap/JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">MERN Stack Development</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+				
+				<div class="skill css">
+                  <h3 class="skill-title">CoreJava/Advanced Java</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+				
+				<div class="skill css">
+                  <h3 class="skill-title">PHP/MySql/Postgresql</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75%"></div>
+                  </div>
+                </div>
+				
+                <div class="skill js">
+                  <h3 class="skill-title">C/C++/Data-Structures & Algorithm</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="95%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <!img src="./img/about.png" class="z-index" alt="" />
+			  <img src="./img/neel1.png" class="z-index" alt="" style="border-radius: 50%;" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.png" alt="" class="shape square1" />
+          <img src="./img/shapes/square.png" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.png"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            
+          </div>
+
+        </div>
+      </section>
+
+		
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+                
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Gujarat, India</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=neelnsoni13@gmail.com&tf=cm" style="text-decorations:none; color:inherit;"><i class="fa fa-envelope"></i></a>
+                  </div>
+				  <div>
+					  <p class="info-text">neelnsoni13@gmail.com</p><br>
+				  </div>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <a href="https://wa.me/917874866543/" style="text-decorations:none; color:inherit;" target="_blank"><i class="fas fa-phone-alt"></i></a>
+                  </div>
+                  <p class="info-text">+91 78748 66543</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+				  <h3 class="title">Contact me</h3>
+					<form name="submit-to-google-sheet">
+					  <div class="row">
+						<input type="text" name="Name" class="contact-input" placeholder="First Name" required />
+						<input type="text" name="Lname" class="contact-input"  placeholder="Last Name" required />
+					  </div>
+
+					  <div class="row">
+						<input type="text" name="phone" class="contact-input" placeholder="Phone" required />
+						<input type="email" name="email" class="contact-input" placeholder="Email" required />
+					  </div>
+
+					  <div class="row">
+						<textarea name="message" class="contact-input textarea"  placeholder="Message"></textarea>
+					  </div>
+					   <button type="submit" class="btn"> Send</button>
+					</form> 
+					<span id="msg"></span>
+				</div>
+          </div>
+		  
+		  
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Achievements</h3>
+          <p class="text">
+             Google KickStart 2022 -  Global Rank 3798th Rank ( Round F ) -><a href="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"> Link </a>
+          </p>
+		  <p class="text">
+            Google KickStart 2022 -  Global Rank ( Round G) -><a href=""> Link</a>
+          </p>
+		  <p class="text">
+             CodeCheff Long Challenge – Global Rank 400th 
+          </p>
+		  <p class="text">
+             CodeCheff CookOff Challenge – Global Rank 1180th 
+          </p>
+		  <p class="text">
+             CodeCheff LunchTime Challenge – Global Rank 1411th 
+          </p>
+		  <p class="text">
+             CodeCheff -  Country Rank 6252th  & Global Rank 7497th -> neel1313
+          </p>
+		  <p class="text">
+             HackerRank Problem Soving Basic Certified ->  <a href="https://www.hackerrank.com/certificates/2788a70a080b"> Link </a>
+          </p>
+		  <p class="text">
+             HackerRank Problem Solving Intermediate Crtified -> <a href="https://www.hackerrank.com/certificates/4ef4df2c2efd"> Link </a>
+          </p>
+		  <p class="text">
+            HackerRank Java Basic Certified -> <a href="https://www.hackerrank.com/certificates/d81262ceefe5"> Link </a>
+          </p>
+		  <p class="text">
+            HackerRank SQL certified -> <a href="https://www.hackerrank.com/certificates/816eadb8f9a9"> Link </a>
+          </p>
+		   <p class="text">
+			AWS certified -> <a href="https://www.credly.com/badges/759f545e-4512-45e4-911b-9be461ca7e87/public_url"> Link </a>
+		  </p>
+		  <p class="text">
+            Solve More than 1000+ Data Structures <br>& Algorithm (Programming) Questions in Various Platform.
+          </p> 
+		 
+          <a href="#portfolio" class="btn">All Projects</a>
+        </div>
+      </section>
+	  
+	  <section class="hireme" id="hireme">
+        <div class="container">
+			<h3 class="title">Academics Achievements</h3></br>
+			  <p class="text">
+					<b>NH Shah High School, Bayad / Aravalli</b><br>
+					10th - APRIL 2017 - APRIL 2018 – 93.74% 
+			  </p>
+			   <p class="text">
+					<b>Shree G.K Dholakiya  School, Rajkot/ Gujarat</b><br>
+					12th - APRIL 2019 - APRIL 2020 - 81%
+			  </p>
+			  <p class="text">
+					<b>JEE Mains -  96.17PR</b><br>
+			  </p>
+			  <p class="text">
+					<b>Gujarat Rank(State Rank) -  1228</b><br>
+			  </p>
+			  <p class="text">
+					<b>Dharamsinh  Desai University (DDU),Gujarat <br>B.Tech – Information & Technology</b><br>
+					OCT 2020 - MAY 2024 &nbsp;&nbsp;	CGPA – 8.5
+			  </p>
+		</div>
+	 </section>	
+	  
+	  <section class="hireme1" id="hireme1">
+        <div class="container">
+          <h3 class="title">Competitve Platform Links</h3><br>
+		  
+            <a href="https://www.codechef.com/users/neel1313" class="btn">codecheff</a>
+         
+            <a href="https://codeforces.com/profile/NeelSoni1313" class="btn">Codeforces</a>
+         
+            <a href="https://leetcode.com/neelsoni1313/" class="btn">Leetcode</a>
+            
+            <a href="https://www.hackerrank.com/neelnsoni13" class="btn">Hackerrank</a>
+              
+            <a href="https://github.com/neel13062003" class="btn">Github</a>
+              
+            <a href="https://auth.geeksforgeeks.org/user/sonineel1313 " class="btn">Gfg</a>
+ 
+        </div>
+      </section>
+	  
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              Mobile No<br> +91 7874866543<br>
+			  Email <br> neelnsoni13@gmail.com
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Hobby</h3>
+				<p class="text">
+				   In my free time other than Computer field I Read/Listen autobiography of great leader, Enterprenuer, Scientist,History,Spirituality & also play games.
+                </p>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+            <p class="text">
+             Enter Your Email
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="index.html" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy; All rights reserved ,  Made by
+              <span>SoniNeel</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <!h3><!Follow me><!/h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/neel13062003">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/sonineel1313/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/neel-soni-5b0562204/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+	
+	
+	<script>
+		  const scriptURL = 'https://script.google.com/macros/s/AKfycbyd9VT0UjKxN1yUkPKsR2xxgSWF5XnIe3eK9cbtuYlnIttjqidFWTeSGmxtzk3cLzodEw/exec'
+		  const form = document.forms['submit-to-google-sheet']
+		  const msg= document.getElementById("msg");
+
+		  form.addEventListener('submit', e => {
+			e.preventDefault()
+			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			  .then(response => {
+				msg.innerHTML = "Message Sent Successfully"
+				setTimeout(function(){
+					msg.innerHTML=""
+				},5000)
+				form.reset()
+			  })
+			  .catch(error => console.error('Error!', error.message))
+		  })
+	</script>
+	
+	
+  </body>
+</html>
